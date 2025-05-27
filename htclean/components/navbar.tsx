@@ -68,9 +68,8 @@ export default function Navbar() {
               </>
             )}
             <Link
-              href="https://cal.com/your-calendar"
+              href="/booking"
               className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg transition-colors font-medium"
-              target="_blank"
             >
               Schedule Now
             </Link>
@@ -132,9 +131,8 @@ export default function Navbar() {
             )}
             <div className="px-2 pt-2 pb-3">
               <Link
-                href="https://cal.com/your-calendar"
+                href="/booking"
                 className="block text-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg transition-colors font-medium"
-                target="_blank"
               >
                 Schedule Now
               </Link>

@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 const Footer = () => {
   return (
     <footer className="relative z-50 bg-slate-900/90 backdrop-blur-sm text-white py-8 mt-auto">
@@ -13,8 +11,8 @@ const Footer = () => {
                 <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                <a href="mailto:t.abdellaoui100@gmail.com" className="hover:text-blue-400 transition-colors">
-                  t.abdellaoui100@gmail.com
+                <a href="mailto:tarek@htclean.ca" className="hover:text-blue-400 transition-colors">
+                tarek@htclean.ca
                 </a>
               </p>
               <p className="flex items-center">

@@ -20,6 +20,10 @@ export const metadata: Metadata = {
   title: "HTClean - Professional Car Detailing & Cleaning Services",
   description: "Premium car detailing, window cleaning, and pressure washing services. Book your appointment or get a free quote today.",
   keywords: "car detailing, window cleaning, pressure washing, professional cleaning, HTClean",
+  icons: {
+    icon: '/logo.svg',
+    apple: '/logo.svg'
+  },
 };
 
 export default function RootLayout({

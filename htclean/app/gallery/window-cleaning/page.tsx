@@ -23,8 +23,8 @@ export default function WindowCleaningGallery() {
             onClick={() => setActiveCategory(category.value)}
             className={`px-6 py-2 rounded-full transition-all ${
               activeCategory === category.value
-                ? 'bg-gray-800 text-white'
-                : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                ? 'bg-white text-gray-900 shadow-md'
+                : 'bg-gray-800 text-gray-100 hover:bg-gray-700'
             }`}
           >
             {category.title}

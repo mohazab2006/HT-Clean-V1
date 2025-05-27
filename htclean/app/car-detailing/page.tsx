@@ -27,17 +27,16 @@ export default function CarDetailing() {
           </p>
           <div className="flex gap-4 justify-center">
             <Link 
-              href="https://cal.com/your-calendar/car-detailing"
+              href="#services"
               className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg transition-colors"
-              target="_blank"
             >
               Book Now
             </Link>
             <Link 
-              href="#services"
+              href="/gallery/car-detailing"
               className="bg-gray-800 hover:bg-gray-700 text-white px-8 py-3 rounded-lg transition-colors"
             >
-              View Services
+              Detailing Results
             </Link>
           </div>
         </div>
@@ -52,9 +51,9 @@ export default function CarDetailing() {
           
           <div className="grid md:grid-cols-3 gap-8">
             {/* Basic Package */}
-            <div className="group relative bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-6 border border-gray-700/50 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_40px_rgba(59,130,246,0.3)] hover:border-blue-500/50 hover:bg-gradient-to-br hover:from-gray-700 hover:to-gray-800 cursor-pointer">
+            <div className="group relative bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-6 border border-gray-700/50 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_40px_rgba(59,130,246,0.3)] hover:border-blue-500/50 hover:bg-gradient-to-br hover:from-gray-700 hover:to-gray-800">
               <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl opacity-0 group-hover:opacity-10 transition duration-300"></div>
-              <h3 className="text-xl font-bold mb-4 text-white">Basic Package</h3>
+              <h3 className="text-xl font-bold mb-4 text-white">Interior Deep Clean</h3>
               <ul className="space-y-3 mb-6 text-gray-300">
                 <li>• Exterior wash and dry</li>
                 <li>• Wheel cleaning</li>
@@ -63,18 +62,17 @@ export default function CarDetailing() {
               </ul>
               <p className="text-2xl font-bold text-white mb-6">From $99</p>
               <Link 
-                href="https://cal.com/your-calendar/basic-detailing"
-                className="block text-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg transition-colors"
-                target="_blank"
+                href="/booking/interior"
+                className="relative z-10 block text-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg transition-colors"
               >
-                Book Basic Package
+                Book Interior Package
               </Link>
             </div>
 
             {/* Premium Package */}
-            <div className="group relative bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-6 border border-gray-700/50 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_40px_rgba(59,130,246,0.3)] hover:border-blue-500/50 hover:bg-gradient-to-br hover:from-gray-700 hover:to-gray-800 cursor-pointer">
+            <div className="group relative bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-6 border border-gray-700/50 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_40px_rgba(59,130,246,0.3)] hover:border-blue-500/50 hover:bg-gradient-to-br hover:from-gray-700 hover:to-gray-800">
               <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl opacity-0 group-hover:opacity-10 transition duration-300"></div>
-              <h3 className="text-xl font-bold mb-4 text-white">Premium Package</h3>
+              <h3 className="text-xl font-bold mb-4 text-white">Interior / Exterior Full Detail Package</h3>
               <ul className="space-y-3 mb-6 text-gray-300">
                 <li>• Everything in Basic</li>
                 <li>• Paint decontamination</li>
@@ -84,18 +82,17 @@ export default function CarDetailing() {
               </ul>
               <p className="text-2xl font-bold text-white mb-6">From $249</p>
               <Link 
-                href="https://cal.com/your-calendar/premium-detailing"
-                className="block text-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg transition-colors"
-                target="_blank"
+                href="/booking/interior-exterior"
+                className="relative z-10 block text-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg transition-colors"
               >
-                Book Premium Package
+                Book Full Detail Package
               </Link>
             </div>
 
             {/* Ultimate Package */}
-            <div className="group relative bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-6 border border-gray-700/50 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_40px_rgba(59,130,246,0.3)] hover:border-blue-500/50 hover:bg-gradient-to-br hover:from-gray-700 hover:to-gray-800 cursor-pointer">
+            <div className="group relative bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-6 border border-gray-700/50 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_40px_rgba(59,130,246,0.3)] hover:border-blue-500/50 hover:bg-gradient-to-br hover:from-gray-700 hover:to-gray-800">
               <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl opacity-0 group-hover:opacity-10 transition duration-300"></div>
-              <h3 className="text-xl font-bold mb-4 text-white">Ultimate Package</h3>
+              <h3 className="text-xl font-bold mb-4 text-white">Premium Exterior Detail + Ceramic Coating</h3>
               <ul className="space-y-3 mb-6 text-gray-300">
                 <li>• Everything in Premium</li>
                 <li>• Two-step paint correction</li>
@@ -105,11 +102,10 @@ export default function CarDetailing() {
               </ul>
               <p className="text-2xl font-bold text-white mb-6">From $499</p>
               <Link 
-                href="https://cal.com/your-calendar/ultimate-detailing"
-                className="block text-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg transition-colors"
-                target="_blank"
+                href="/booking/exterior"
+                className="relative z-10 block text-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg transition-colors"
               >
-                Book Ultimate Package
+                Book Ultimate Exterior Package
               </Link>
             </div>
           </div>
