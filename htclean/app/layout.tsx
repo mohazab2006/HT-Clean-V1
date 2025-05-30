@@ -20,9 +20,26 @@ export const metadata: Metadata = {
   title: "HTClean - Professional Car Detailing & Cleaning Services",
   description: "Premium car detailing, window cleaning, and pressure washing services. Book your appointment or get a free quote today.",
   keywords: "car detailing, window cleaning, pressure washing, professional cleaning, HTClean",
+  manifest: '/manifest.json',
   icons: {
-    icon: '/logo.svg',
-    apple: '/logo.svg'
+    icon: [
+      { url: '/favicon.png', sizes: '32x32', type: 'image/png' },
+      { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/icon-512.png', sizes: '512x512', type: 'image/png' }
+    ],
+    apple: [
+      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
+      { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/icon-512.png', sizes: '512x512', type: 'image/png' }
+    ],
+    other: [
+      { rel: 'mask-icon', url: '/logo.svg', color: '#000000' }
+    ]
+  },
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default',
+    title: 'HTClean'
   },
 };
 
